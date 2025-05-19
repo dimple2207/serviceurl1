@@ -1,8 +1,9 @@
-name: Hello
-
-
 jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello, world!"
+    - run: echo "Hello, world!"
+name: Hello
+pipeline-name: master-data-management
+pipeline-type: app
+project-dir: /
